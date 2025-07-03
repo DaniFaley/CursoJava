@@ -9,6 +9,7 @@ public class For {
         List<String> coleccion = new ArrayList<>();
 
         // Agregar elementos a la colección
+
         coleccion.add("Daniel");
         coleccion.add("Kim");
         coleccion.add("Lana");
