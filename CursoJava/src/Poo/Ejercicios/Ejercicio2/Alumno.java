@@ -80,11 +80,11 @@ public class Alumno {
 
     // 📄 Mostrar todos los datos del alumno
     public void mostrarDatos() {
-        System.out.println("ID: " + id);
-        System.out.println("Nombre: " + nombre);
-        System.out.println("Apellido: " + apellido);
-        System.out.println("Edad: " + edad);
-        System.out.println("Calificación: " + calificacion);
-        System.out.println("Estado: " + (estado ? "Aprobado" : "Reprobado"));
+        System.out.println("ID: " + getId());
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Apellido: " + getApellido());
+        System.out.println("Edad: " + getEdad());
+        System.out.println("Calificación: " + getCalificacion());
+        System.out.println("Estado: " + (getEstado() ? "Aprobado" : "Reprobado"));
     }
 }

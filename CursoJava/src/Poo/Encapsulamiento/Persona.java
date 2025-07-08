@@ -1,4 +1,4 @@
-package Poo.Herencia;
+package Poo.Encapsulamiento;
 
 public class Persona {
     // Atributos de la clase padre
@@ -46,9 +46,10 @@ public class Persona {
     }
     public void setEdad(int edad) {
         this.edad = edad;
+        this.mayorEdad = obtenerMayorEdad();
     }
 
-    // Metodos
+    // Metodos extras: Operaciones
     // Metodo para saber si es mayor de edad una persona
     public Boolean obtenerMayorEdad() {
         if (edad >= 18) {
