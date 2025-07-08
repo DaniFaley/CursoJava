@@ -30,6 +30,9 @@ public class Persona {
     public int getEdad() {
         return edad;
     }
+    public Boolean getMayorEdad() {
+        return mayorEdad;
+    }
 
     // Metodos set de la clase padre
     public void setNombre(String nombre) {
@@ -58,9 +61,9 @@ public class Persona {
     // Metodo para mostrar datos
     public void mostrarDatos() {
         System.out.println("Datos Personales:");
-        System.out.println("Nombre completo: " + nombre + " " + apellido);
-        System.out.println("Sexo: " + sexo);
-        System.out.println("Edad: " + edad);
-        System.out.println("¿Es mayor de edad? " + mayorEdad);
+        System.out.println("Nombre completo: " + getNombre() + " " + getApellido());
+        System.out.println("Sexo: " + getSexo());
+        System.out.println("Edad: " + getEdad());
+        System.out.println("¿Es mayor de edad? " + getMayorEdad());
     }
 }

@@ -57,9 +57,9 @@ public class Contacto {
 
     // 📄 Método para mostrar los datos del contacto
     public void mostrarDatos() {
-        System.out.println("ID: " + id);
-        System.out.println("Nombre: " + nombre);
-        System.out.println("Email: " + email);
-        System.out.println("Teléfono: " + telefono);
+        System.out.println("ID: " + getId());
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Email: " + getEmail());
+        System.out.println("Teléfono: " + getTelefono());
     }
 }

@@ -88,11 +88,11 @@ public class Persona {
 
     // 📄 Mostrar información de la persona
     public void mostrarDatosPersona() {
-        System.out.println("ID: " + id);
-        System.out.println("CURP: " + curp);
-        System.out.println("Nombre: " + nombre);
-        System.out.println("Apellido: " + apellido);
-        System.out.println("Edad: " + edad);
-        System.out.println("Estado: " + estado);
+        System.out.println("ID: " + getId());
+        System.out.println("CURP: " + getCurp());
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Apellido: " + getApellido());
+        System.out.println("Edad: " + getEdad());
+        System.out.println("Estado: " + getEstado());
     }
 }

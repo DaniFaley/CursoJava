@@ -92,10 +92,10 @@ public class Alumno extends Persona {
         mostrarDatos(); // Metodo de la clase padre
         System.out.println(" ");
         System.out.println("Datos Escolares:");
-        System.out.println("Matricula: " + matricula);
-        System.out.println("Carrera: " + carrera);
-        System.out.println("Semestre: " + semestre);
-        System.out.println("Promedio: " + promedio);
-        System.out.println("becado: " + becado);
+        System.out.println("Matricula: " + getMatricula());
+        System.out.println("Carrera: " + getCarrera());
+        System.out.println("Semestre: " + getSemestre());
+        System.out.println("Promedio: " + getPromedio());
+        System.out.println("becado: " + getBecado());
     }
 }

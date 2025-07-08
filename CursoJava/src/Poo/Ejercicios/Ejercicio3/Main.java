@@ -1,4 +1,4 @@
-package Poo.Ejercicio;
+package Poo.Ejercicios.Ejercicio3;
 
 import java.util.ArrayList;
 import java.util.List;

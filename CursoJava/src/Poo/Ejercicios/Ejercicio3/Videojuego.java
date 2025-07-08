@@ -1,4 +1,4 @@
-package Poo.Ejercicio;
+package Poo.Ejercicios.Ejercicio3;
 
 public class Videojuego {
     private int id_videojuego;

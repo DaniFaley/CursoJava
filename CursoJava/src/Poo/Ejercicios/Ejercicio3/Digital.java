@@ -1,4 +1,4 @@
-package Poo.Ejercicio;
+package Poo.Ejercicios.Ejercicio3;
 
 public class Digital extends Videojuego {
     private Double pesoGB;
